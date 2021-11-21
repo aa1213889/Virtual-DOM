@@ -1,4 +1,4 @@
-import vnode from './vnode.js'
+import vnode from './vnode'
 
 /**
  * 必须接受三个参数 
