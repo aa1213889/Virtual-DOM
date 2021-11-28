@@ -1,7 +1,7 @@
 /** 
  * 创建真实节点 
  * 将vnode创建为DOM
- * 1.当vnode内部是文本且没有children时
+ * 1.当vnode内部是文本且没有children时 直接生成
  * 2.有子元素时 需要递归遍历递归
  *    并在父元素vnode.elm 里appendChild 子元素的真实节点
  */
